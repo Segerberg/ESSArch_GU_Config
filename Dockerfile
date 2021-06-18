@@ -11,3 +11,5 @@ RUN chown -R essarch:essarch ./
 USER essarch
 
 VOLUME /ESSArch/config
+
+ENTRYPOINT /bin/bash
